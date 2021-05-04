@@ -11,6 +11,6 @@ Text Domain:  starter-plugin
 
 require __DIR__.'/vendor/autoload.php';
 
-$request = new StarterPlugin\App();
+new StarterPlugin\App;
 
 ?>
