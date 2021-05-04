@@ -1,0 +1,25 @@
+{
+    "name": "studiovisual/starter-plugin",
+    "type": "wordpress-plugin",
+    "description": "Starter plugin",
+    "homepage": "https://studiovisual.com.br",
+    "authors": [
+        {
+          "name": "Studio Visual",
+          "email": "atendimento@studiovisual.com.br",
+          "homepage": "https://github.com/studiovisual/",
+          "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StarterPlugin\\": "app/"
+        },
+        "files": [
+            "vendor/cmb2/cmb2/init.php"
+        ]
+    },
+    "require": {
+        "cmb2/cmb2": "^2.9"
+    }
+}
